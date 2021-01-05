@@ -1,0 +1,264 @@
+BLASTN 2.9.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Pgenerosa.GENES
+           34,947 sequences; 377,813,576 total letters
+
+
+
+Query= NM_001305366.1 Crassostrea gigas jmjC domain-containing protein
+4-like (LOC105339095), mRNA
+
+Length=1002
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 367037348440
+
+
+Query= NM_001305324.1 Crassostrea gigas protein Jumonji-like
+(LOC105343591), mRNA
+
+Length=4857
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1818645456282
+
+
+Query= KF823114.1 Crassostrea gigas Jumonji-C domain-containing protein
+JumonjiA mRNA, complete cds
+
+Length=1392
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 514003021840
+
+
+Query= KF823113.1 Crassostrea gigas Jumonji-C domain-containing protein
+KDM4B mRNA, complete cds
+
+Length=7227
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2711578899702
+
+
+Query= KF823112.1 Crassostrea gigas Jumonji-C domain-containing protein
+mRNA, complete cds
+
+Length=4857
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1818645456282
+
+
+Query= KF823111.1 Crassostrea gigas Jumonji-C domain-containing protein
+Jarid1c mRNA, complete cds
+
+Length=5652
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2118173763252
+
+
+Query= KF823110.1 Crassostrea gigas Jumonji-C domain-containing protein
+Jumonji6 mRNA, complete cds
+
+Length=1254
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 461999783560
+
+
+Query= KF823109.1 Crassostrea gigas Jumonji-C domain-containing protein
+Jumonji5 mRNA, complete cds
+
+Length=744
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 270215795019
+
+
+Query= KF823108.1 Crassostrea gigas Jumonji-C domain-containing protein
+Jumonji4 mRNA, complete cds
+
+Length=1002
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 367037348440
+
+
+Query= KF823106.1 Crassostrea gigas Jumonji-C domain-containing protein
+Jumonji2c mRNA, complete cds
+
+Length=1257
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 463130288740
+
+
+Query= KF823107.1 Crassostrea gigas Jumonji-C domain-containing protein
+Jumonji1b mRNA, complete cds
+
+Length=4887
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+PGEN_.00g257110                                                       143        1e-31
+
+
+>PGEN_.00g257110 
+Length=61321
+
+ Score = 143 bits (77),  Expect = 1e-31
+ Identities = 111/128 (87%), Gaps = 0/128 (0%)
+ Strand=Plus/Plus
+
+Query  2721   AGCCAAAATTGCGTGGAAGCGAGCAGTGACCGGGGTGCGCGAGATGTGTGACGTCTGTGA  2780
+              ||| ||| | || |||||| |||||||||| |||||| | |||||||| || || |||||
+Sbjct  57323  AGCTAAAGTGGCTTGGAAGAGAGCAGTGACTGGGGTGAGAGAGATGTGCGATGTTTGTGA  57382
+
+Query  2781   TACGACGCTGTTCAACATGCACTGGGTGTGTCACAAGTGTGGCTTTGTGGTGTGTCTGGA  2840
+               |||||  |||||||||||||||||||||||||||||||||||||||| |||||||| ||
+Sbjct  57383  CACGACATTGTTCAACATGCACTGGGTGTGTCACAAGTGTGGCTTTGTCGTGTGTCTCGA  57442
+
+Query  2841   CTGTTACA  2848
+              ||| ||||
+Sbjct  57443  CTGCTACA  57450
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1829948411262
+
+
+  Database: Pgenerosa.GENES
+    Posted date:  Feb 25, 2020  4:48 PM
+  Number of letters in database: 377,813,576
+  Number of sequences in database:  34,947
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

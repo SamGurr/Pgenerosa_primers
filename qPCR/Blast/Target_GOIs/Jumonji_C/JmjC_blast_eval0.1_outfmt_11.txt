@@ -1,0 +1,1128 @@
+Blast4-archive ::= {
+  request {
+    ident "2.9.0+",
+    body queue-search {
+      program "blastn",
+      service "megablast",
+      queries bioseq-set {
+        seq-set {
+          seq {
+            id {
+              local str "Query_1"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">NM_001305366.1 Crassostrea gigas jmjC
+ domain-containing protein 4-like (LOC105339095), mRNA"
+                  }
+                }
+              },
+              title "NM_001305366.1 Crassostrea gigas jmjC domain-containing
+ protein 4-like (LOC105339095), mRNA"
+            },
+            inst {
+              repr raw,
+              mol na,
+              length 1002,
+              seq-data ncbi2na '3A30DFC7C023E91F476A3F54871127CE21D7E69FF6D21E
+BE0E2F7A8440238E387123FBB33A9500A34E8453D4E78ECF4AD3F2FAD2504FEEB6820BA33DCD75
+2A820803F39042CEB4FEBB38EC8F79E0F1D8E007ECD5071080B4ADCA322B8F4A092A88C3F3B572
+E8E91450B7D0DF82310FDCC05307A383A7B0EF84DE7A4B3B40841F894AF49088F823EC0A0E8E9E
+A1412ED2F0D78294BEE8363CEB83F7D2FCE82D3E51C128D61F7108D3F2E042D180FC5C4812292D
+E8DE38855B7BE104C0B97248E0010923BF4AE7EE1DC31F4B9E0E023ECF750E122A923034FBBBF8
+5EC4BB420ECF3B8CE3521D483F1F7F038FB8810250E07C4B0032000C30324F3700'H
+            }
+          },
+          seq {
+            id {
+              local str "Query_2"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">NM_001305324.1 Crassostrea gigas protein
+ Jumonji-like (LOC105343591), mRNA"
+                  }
+                }
+              },
+              title "NM_001305324.1 Crassostrea gigas protein Jumonji-like
+ (LOC105343591), mRNA"
+            },
+            inst {
+              repr raw,
+              mol na,
+              length 4857,
+              seq-data ncbi2na '3AFA8A20BD04A81002DD53279205277E52485022033F45
+401738CD167A3EDFA02081881C08093ECE4D3C420D02217D055485280E31941E0D210D7843908F
+C850D02F08213ED4A28520BD4BF8B915DC556E105ED2D2E27BBA38062D28B414ED34B472ECD077
+E1D020070AD6E748A0BF9CE05250104F4850F52C42ED53912012BB44D04D821698821B7DC73EFF
+540889021208FD785FDFEDD22B1177FE5974FE87FFC1C4B6738412DE143A5B0EB2211F7576D75D
+4525D2C3B868A344EFC45AC0C2F451D4E420A795A94B9E9157887EDBA1E928B8268E842DD40050
+B559E9596282949C8D5E04D114B00BB457502023E52502E7411CA760008A9DA0290A7A5D406809
+2E9457C54D89345E501D0254551228104838938C2B048EBB2AEDB874B2CECBB93AC83EA8E910B0
+BBBA0EF456ECCBDD13239F776527DECEDC14DE7D77EC57505DD1C7510A044D0D749EC5797A4A88
+CFBAB2800000D5D1031F1E34414221FE5348273D28E140C10A8F53BECE50CE7138C20002FB80E3
+A41D77F79E38EF4BF94CDE7BD28FA0848248A141084FEE51835107DED240D2320BBE9E30AC5443
+4E82042C93F9E0882F1C82527FAC520842FED74A2803D5779E312123044921FAF4130224907428
+E780140127C524F0780EFCF520050843CD2D0412775738682404612802FBE2D73D775DFAA12BFF
+3E0D48B40FCEE0BF36214BECE31120BB50053489231389E0F488CBC83029A40E70C904F42B84BB
+FD40B410DC4044ECD2C3F43D174470037CF8F3AE0CE31D57E1F0BF14020D014C0510DFC890A348
+9FBED420F03043B4B3B98DC8EF2D9344781DE80EF5D0FDD000A45147302B208E100C34D0114B70
+588970E182BEC78A94ABB41782B4E042EEE8C0202B42B4FB94EF734F0EA0FFD5602ED6D3032412
+739E531081E5F4510FC82092E88D210FD1FAD2C7484F90148F0128AC1208978923A051D107A8BF
+85F0201750A100F2394C49EACB0EDFF76D7D222976BFB7A08B240F14B7F8CD392DF7AA21017BDD
+00DC211243F1C32F50A083554FA7750043C3978DC7120DD2C92D227720B08AE822375351E53071
+0FDC92D2C712C7C4524253F7DE5224AD4021141010C83EB0D4F238E200304F8CF534062084FE89
+22FC5FC8BEB2F30A0EDE2493854A78F32CB0D4DF715A4BA5D41FAF004B93935E23D78520410C54
+A11E0803A20D378A28C88A28C28BFAA828570879885488952E0B579ADE09547B455182DD4525E1
+223151BFCD41228A2FD2655713CCC4093E755A9E257FA0EEC03CD5D7DC9E827A0A0234B82314AF
+C4D12012F454407B1008FEB503BA20BC8BB3480113A2B7C0D48E04BD48F5223EBA6E89E84FEE37
+A32053528BBAAA38A462BA208203A9DABA6845383B5400E912859AC701EC639F1EC0FDC7B5C438
+7E2E482003401F4894AD0A7808382B422A08528A287B36D0804BFEA232D643209213B27313AE94
+EF8C5007405ECB7BD52D0808814B3D0A457E8378375D5104D77B779E0B17285EC528B86BD51DC4
+EEA4E771165D7BEB51A13534FC571B52CDC4698A78CFBBACF7B54DD0822942FC0DEE38281D3D71
+5CB490F451AE9D02284694EB955E235D7120ABB11F0967BB92D15452FEEBADFD56B5C44945349E
+EAC447658B59D1FE514287A3D07697C01E71877923BB0A25E0F3DD4E8E078FED030E8A1146934D
+E37DD28534F5F1CE040F7222FB444A28E74B85EA2E00'H
+            }
+          }
+        }
+      },
+      subject database "Documents/Bioinformatics/genomes/Pgenerosa_genes_datab
+ase/Pgenerosa.GENES",
+      algorithm-options {
+        {
+          name "EvalueThreshold",
+          value cutoff e-value { 1, 10, -1 }
+        },
+        {
+          name "MaskAtHash",
+          value boolean TRUE
+        },
+        {
+          name "DustFilteringLevel",
+          value integer 20
+        },
+        {
+          name "DustFilteringWindow",
+          value integer 64
+        },
+        {
+          name "DustFilteringLinker",
+          value integer 1
+        },
+        {
+          name "UngappedMode",
+          value boolean FALSE
+        },
+        {
+          name "HitlistSize",
+          value integer 500
+        },
+        {
+          name "EffectiveSearchSpace",
+          value big-integer 367037348440
+        }
+      },
+      program-options {
+        {
+          name "LCaseMask",
+          value query-mask {
+            locations {
+              packed-int {
+                {
+                  from 968,
+                  to 990,
+                  id local str "Query_1"
+                },
+                {
+                  from 968,
+                  to 990,
+                  id local str "Query_1"
+                }
+              }
+            },
+            frame plus1
+          }
+        },
+        {
+          name "LCaseMask",
+          value query-mask {
+            locations {
+              packed-int {
+                {
+                  from 1353,
+                  to 1363,
+                  id local str "Query_2"
+                },
+                {
+                  from 1353,
+                  to 1363,
+                  id local str "Query_2"
+                },
+                {
+                  from 1476,
+                  to 1482,
+                  id local str "Query_2"
+                },
+                {
+                  from 1476,
+                  to 1482,
+                  id local str "Query_2"
+                }
+              }
+            },
+            frame plus1
+          }
+        }
+      }
+    }
+  },
+  results {
+    alignments {
+    },
+    masks {
+      {
+        locations {
+          packed-int {
+            {
+              from 968,
+              to 990,
+              id local str "Query_1"
+            }
+          }
+        },
+        frame plus1
+      },
+      {
+        locations {
+          packed-int {
+            {
+              from 1353,
+              to 1363,
+              id local str "Query_2"
+            },
+            {
+              from 1476,
+              to 1482,
+              id local str "Query_2"
+            }
+          }
+        },
+        frame plus1
+      }
+    },
+    ka-blocks {
+      {
+        lambda { 133270576282382, 10, -14 },
+        k { 620991117264207, 10, -15 },
+        h { 112409184650115, 10, -14 },
+        gapped FALSE
+      },
+      {
+        lambda { 128, 10, -2 },
+        k { 46, 10, -2 },
+        h { 85, 10, -2 },
+        gapped TRUE
+      }
+    },
+    search-stats {
+      "Effective search space: 367037348440",
+      "Effective search space used: 367037348440",
+      "Length adjustment: 28"
+    }
+  }
+}
+Blast4-archive ::= {
+  request {
+    ident "2.9.0+",
+    body queue-search {
+      program "blastn",
+      service "megablast",
+      queries bioseq-set {
+        seq-set {
+          seq {
+            id {
+              local str "Query_3"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">KF823114.1 Crassostrea gigas Jumonji-C
+ domain-containing protein JumonjiA mRNA, complete cds"
+                  }
+                }
+              },
+              title "KF823114.1 Crassostrea gigas Jumonji-C domain-containing
+ protein JumonjiA mRNA, complete cds"
+            },
+            inst {
+              repr raw,
+              mol na,
+              length 1392,
+              seq-data ncbi2na '387C77B56A7428E8207E87B6F04D150200D51E4F6F81C3
+E3B4BAF761F4A21A4FFB9C78A17F7BA14BD141BFC8752F790F5713F78854848C5B9C9E0F605790
+FEDA1D2ADEB3F6836AB107485984122E88127D9DED92184F52F3F78E05F48E6C83FB57A02B4848
+ADB228A3FD3B3E0B51D620BBBFF4358E4EF74EFE300380700D8835972805EE3FE2A84A33EA0ED1
+2213A2F7BA3C5C9220ABAC5017B40351BB752C5D03A1F4D04007F931034714F4383FBC02249228
+0544083DF4CD22A22033CDE625F2B8E3B480A132584C02C4BF522FA6D2178F3D48DFF540A12BFF
+752EEF58324D40A9C41DE844F38EE3A104D78D48D26928222EB9CFE35A78E74417B1783AE30B48
+2F72132B0D7857800F550BFCE49C62318AA81C894AA33DCFCF5257BAF530EE9B77A1F6BBA4B83B
+BFE8045F8A10CEC630C284FC6B04285E49592422739232D85996C00572283C555BB3221F719882
+1EBB700C88903BCC30354EDD30'H
+            }
+          }
+        }
+      },
+      subject database "Documents/Bioinformatics/genomes/Pgenerosa_genes_datab
+ase/Pgenerosa.GENES",
+      algorithm-options {
+        {
+          name "EvalueThreshold",
+          value cutoff e-value { 1, 10, -1 }
+        },
+        {
+          name "MaskAtHash",
+          value boolean TRUE
+        },
+        {
+          name "DustFilteringLevel",
+          value integer 20
+        },
+        {
+          name "DustFilteringWindow",
+          value integer 64
+        },
+        {
+          name "DustFilteringLinker",
+          value integer 1
+        },
+        {
+          name "UngappedMode",
+          value boolean FALSE
+        },
+        {
+          name "HitlistSize",
+          value integer 500
+        },
+        {
+          name "EffectiveSearchSpace",
+          value big-integer 514003021840
+        }
+      }
+    }
+  },
+  results {
+    alignments {
+    },
+    masks {
+    },
+    ka-blocks {
+      {
+        lambda { 133270576282382, 10, -14 },
+        k { 620991117264206, 10, -15 },
+        h { 112409184650114, 10, -14 },
+        gapped FALSE
+      },
+      {
+        lambda { 128, 10, -2 },
+        k { 46, 10, -2 },
+        h { 85, 10, -2 },
+        gapped TRUE
+      }
+    },
+    search-stats {
+      "Effective search space: 514003021840",
+      "Effective search space used: 514003021840",
+      "Length adjustment: 28"
+    }
+  }
+}
+Blast4-archive ::= {
+  request {
+    ident "2.9.0+",
+    body queue-search {
+      program "blastn",
+      service "megablast",
+      queries bioseq-set {
+        seq-set {
+          seq {
+            id {
+              local str "Query_4"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">KF823113.1 Crassostrea gigas Jumonji-C
+ domain-containing protein KDM4B mRNA, complete cds"
+                  }
+                }
+              },
+              title "KF823113.1 Crassostrea gigas Jumonji-C domain-containing
+ protein KDM4B mRNA, complete cds"
+            },
+            inst {
+              repr raw,
+              mol na,
+              length 7227,
+              seq-data ncbi2na '3A2D742E9AC324C50034EBBD21414E822F420FDD00CEF8
+313A0DBBA274C29EBBE608C31551483A154208A28CE38EF84D1CF5A454C1D0BED1EBED2A1DCD24
+3F0EC4800B5353E428FF802FA404B8CACD8115293FE3CE083E81A0B1E800CD13FB835CFCE89233
+F7AB7F3386E850873E8134163CAC531E8F3BC3AA3CE83C2322A2D044933F33FEA3BA00413F57A4
+C78233A177124F0F3B53FE89D5034EB394C5D4893A0821D818724428FFD5492FF436E549FF7DB4
+40384F0CD1698FF80433DCD53F0423C44A29E88BD38C13F5F1A714E4AB3053A3D0FB922D4407F9
+04208E8F833A0223BF92EC5E48021A2C08D2CE8FBFEE008FD25E36338DCE803EA023B275935228
+E14B701FCC044A8E7AEB88090C825041DE912C4840084D53F428292367550200102802FA420F40
+280801208E300B1A3AB78E38F48008610BFA2BDC48A28BBDE38602120B78E39232C04003E33B17
+408EEDC20008045C0083A945F7F509E7FE0DFEBA7D5BD2891F9DE694A8BBAF8203965C20100170
+022805E7828107B240464AD012828BD4A804E02837605F5483D4B8DED4F843D212F3D74174BC23
+62001F90A351203E11EC010F8C500088D080200D7003274CF7FDD51F152103387DD042C2D2DE1F
+4365F07F7D2505312E8F01241239E4832C4028013CE78B453D0D03F4AECDFFAE1FBE2741270505
+0B6212D3CEE01080D2ACD378E448B2E42EED40D0C12FB775C5D2C4A89278F134012E2AE027157D
+E712C109AAC0138281509DE8DED3DD77D042F4834B83EE30801FE7E00779EFF2210B8532037E15
+805168CC38391650E03C1E8D1048BFBDD493B7824FC0B250493BC9FB017816D13124D03D15677F
+9D2D4A08488B68935128FA7814BB44EBA291DEA77557F920CF94B9F4105ECFA34D25D34DF5F3F1
+03715373D13D574885144A444E3D95370570D729C492F43577BD4D04110D0371DF9095FA4B4100
+DE1744104921FFF2E0CC5EE393DEB1C71E92492C5E4C1571F53471C39344AE0100CDBDF143AAF7
+DF043B80DF49F5DE9127BF42C05C4B494BC7029472A8F840778350B75775007AE0F52C11C70B3B
+54382D17D2814D27EBD4BAEDD29E8A0390CFBC4834B69E40ED3103E7DC410BADE1290CD3EC4940
+44B9202E04369FB10487BC41D470A327BF45109E8503D747FB3CFDD010E52FA642094900C4FE73
+A7A005D0903BAF937994BCCA92007927BD44BFAE829443F52810743F7BC42BBC748F4D5DD51E5F
+D2BE15821D47FD4053EE177123B849C5437EC5426A87BD015052C147B4378112744D12212407EA
+9230200E0E8BD79490E8F492E3BA1485CEB9CCB8B50302E752FAC5525CFB9433442ED04B47D1D1
+C51C4D3532401121C9478CF2508003D5390BF52888CB8F7AE1301FA2240B809287DDDD42770D2D
+FEC483B52D4A378E1004F2E42EDC9C4B9FDD280D3543000D140C25E3077243BEB88ED3C0429240
+020350E492CD546374291E2AE80B4B802804D08E20403D502403B8C9023DE00F6D400C52C08F74
+C0813AE80800802032CBA838CD280843FE23C492E5E060C3848E1E84814B88A1EE904FCF9C87F2
+E789087D0EF00F2D20BE513EF537B9FEFC053E48FF1E8404E084B5C6613000A020B419488219E5
+8E3548AEE7F97B2E08C154152D21F4A54DD8E28E874B4DEFAEE6287B02FEEC4642F9CEBBBC80C5
+D0042084E88E472BBB5B4923249E2E7BFB9ECE2A8AA57C05452C3A42EA44EFBBB9DD14F1623019
+2A2145F79CCE80354D43BFD80C81FEC0FCFBC073A11F5E03F45A03FB7CEE49043FC506DFE244DD
+45BFB52A1B793F6209FAEA312F36007D84DDDF2E781D2EB77B11B85DC5DFFE76AD887FDD413C49
+C1FE3F1917E44D741F59F7E2A116493AC416317BBDCF401186EC4022ED73E8FF1A20F79F008390
+7B803A691FB8D5B84A41EC9EEC42AFEFA141FBBEC225EE387A0B3A0207B04957B4B904513FD2D0
+7B4D6AC7A22EECEC95EBC49A251B926053B5A6502CE8802E6A012E41E7E0E99DDED346E1EA83B4
+BB880A3132B408E43486E57469EBFAC8879DD23BB179403A69B790FF003A71E61EE4528FCFADE4
+FB80057B26FAF1CEBC41E45480EE1EDE0E3AB1EC15C80698BB5FB657AB3829590EE0052E4223A1
+7FAD20FBA1223B8BB87C8132711BBA98881AA2EFDEE1546EB393B862AF1FE8049ED8FD2EC0E629
+C7485EE146E1E943B3F4546ED69E8746A951BB43117B53E8D9CE8B9BE41807ED4FBB003FA9F7B4
+F5403AF5ECFE7F56AF7FA0773B800BFB5E3AF1CE8C40E49943EF4EE00E9981ECB037868EBB8FB5
+54AF336A149EF748442361540F940B2E243B22834DF56EB70F3683C5B259EDB2FF87BCD34D34FB
+6DC7109B62DA9B702DEC05992E393CCC437160A058648EB0FC52E5E834C055BB3104041483B150
+5F89A80F499492412241450E641F5EC18818AF9392E75CB3E35048EF003BCB7D4B03A24E6E1ACD
+361E18E1260D212311467C28CF4A701E8603E32048019A5EE509E8E70018010718AD07C8E13E09
+55008403317873841B34320DE94EC3F4D7784F802997354440724ACFC0'H
+            }
+          },
+          seq {
+            id {
+              local str "Query_5"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">KF823112.1 Crassostrea gigas Jumonji-C
+ domain-containing protein mRNA, complete cds"
+                  }
+                }
+              },
+              title "KF823112.1 Crassostrea gigas Jumonji-C domain-containing
+ protein mRNA, complete cds"
+            },
+            inst {
+              repr raw,
+              mol na,
+              length 4857,
+              seq-data ncbi2na '3AFA8A20BD04A81002DD53279205277E52485022033F45
+401738CD167A3EDFA02081881C08093ECE4D3C420D02217D055485280E31941E0D210D7843908F
+C850D02F08213ED4A28520BD4BF8B915DC556E105ED2D2E27BBA38062D28B414ED34B472ECD077
+E1D020070AD6E748A0BF9CE05250104F4850F52C42ED53912012BB44D04D821698821B7DC73EFF
+540889021208FD785FDFEDD22B1177FE5974FE87FFC1C4B6738412DE143A5B0EB2211F7576D75D
+4525D2C3B868A344EFC45AC0C2F451D4E420A795A94B9E9157887EDBA1E928B8268E842DD40050
+B559E9596282949C8D5E04D114B00BB457502023E52502E7411CA760008A9DA0290A7A5D406809
+2E9457C54D89345E501D0254551228104838938C2B048EBB2AEDB874B2CECBB93AC83EA8E910B0
+BBBA0EF456ECCBDD13239F776527DECEDC14DE7D77EC57505DD1C7510A044D0D749EC5797A4A88
+CFBAB2800000D5D1031F1E34414221FE5348273D28E140C10A8F53BECE50CE7138C20002FB80E3
+A41D77F79E38EF4BF94CDE7BD28FA0848248A141084FEE51835107DED240D2320BBE9E30AC5443
+4E82042C93F9E0882F1C82527FAC520842FED74A2803D5779E312123044921FAF4130224907428
+E780140127C524F0780EFCF520050843CD2D0412775738682404612802FBE2D73D775DFAA12BFF
+3E0D48B40FCEE0BF36214BECE31120BB50053489231389E0F488CBC83029A40E70C904F42B84BB
+FD40B410DC4044ECD2C3F43D174470037CF8F3AE0CE31D57E1F0BF14020D014C0510DFC890A348
+9FBED420F03043B4B3B98DC8EF2D9344781DE80EF5D0FDD000A45147302B208E100C34D0114B70
+588970E182BEC78A94ABB41782B4E042EEE8C0202B42B4FB94EF734F0EA0FFD5602ED6D3032412
+739E531081E5F4510FC82092E88D210FD1FAD2C7484F90148F0128AC1208978923A051D107A8BF
+85F0201750A100F2394C49EACB0EDFF76D7D222976BFB7A08B240F14B7F8CD392DF7AA21017BDD
+00DC211243F1C32F50A083554FA7750043C3978DC7120DD2C92D227720B08AE822375351E53071
+0FDC92D2C712C7C4524253F7DE5224AD4021141010C83EB0D4F238E200304F8CF534062084FE89
+22FC5FC8BEB2F30A0EDE2493854A78F32CB0D4DF715A4BA5D41FAF004B93935E23D78520410C54
+A11E0803A20D378A28C88A28C28BFAA828570879885488952E0B579ADE09547B455182DD4525E1
+223151BFCD41228A2FD2655713CCC4093E755A9E257FA0EEC03CD5D7DC9E827A0A0234B82314AF
+C4D12012F454407B1008FEB503BA20BC8BB3480113A2B7C0D48E04BD48F5223EBA6E89E84FEE37
+A32053528BBAAA38A462BA208203A9DABA6845383B5400E912859AC701EC639F1EC0FDC7B5C438
+7E2E482003401F4894AD0A7808382B422A08528A287B36D0804BFEA232D643209213B27313AE94
+EF8C5007405ECB7BD52D0808814B3D0A457E8378375D5104D77B779E0B17285EC528B86BD51DC4
+EEA4E771165D7BEB51A13534FC571B52CDC4698A78CFBBACF7B54DD0822942FC0DEE38281D3D71
+5CB490F451AE9D02284694EB955E235D7120ABB11F0967BB92D15452FEEBADFD56B5C44945349E
+EAC447658B59D1FE514287A3D07697C01E71877923BB0A25E0F3DD4E8E078FED030E8A1146934D
+E37DD28534F5F1CE040F7222FB444A28E74B85EA2E00'H
+            }
+          },
+          seq {
+            id {
+              local str "Query_6"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">KF823111.1 Crassostrea gigas Jumonji-C
+ domain-containing protein Jarid1c mRNA, complete cds"
+                  }
+                }
+              },
+              title "KF823111.1 Crassostrea gigas Jumonji-C domain-containing
+ protein Jarid1c mRNA, complete cds"
+            },
+            inst {
+              repr raw,
+              mol na,
+              length 5652,
+              seq-data ncbi2na '3A3816C4F0FD3D75D58A45AFF475478A083D92353EA313
+E400C0153E580092833900F0145168FA41453D92E8EE8C0FC8FC65C8BD26DC0E07A297D1083007
+83FFE8527E72BDEA0F92AF9D7E00F5D3BE020279E8FEC417B100DBE0820AA93A072FD4088A03AD
+4032448AF82C5552802AB2AAF779AD11C6228D7B353DFEDF420A88E7C579E241501485E1C507E8
+A28610B58408710144693259801659AAA311DB0810808089120368003A13E1CCBB01DA2F8201F4
+BFFE892A5009E4B15428A22B408A2044B203EF881A28A2F2C521108352A52A931147BA1FB137B4
+4EEC16E98688A2C4EF9EE61A3986193D445C7B78D5953968AD542AA1E8AED703BBA50A5EFB6143
+835B1A3D8109420A1C4BF122FFAE03A5852FC0D41C7D04E52F4CEB94E6012E88083DE98FAE07B3
+228A3BB7BA2CE896135197480EA0BA3D5850A114084EFD68A18A2C4E076A7A05E041797BDC892D
+AF77B44D06484DDA9382B55EB9CEEA4EEFDD4BF7BE910E0851E8BC75341C4E47AAE25421FACEBB
+57AA53A585EFE286E38208995589EF6293756375E4D078518D3815433DD3A146AB573ED6450504
+67AA2FCD345F57664C53969FC14A8C41FE48A4B81FE45A78FA7D53E86A7E4F811C48DDEEDB439B
+FDD138A2F2EEC23A79E35E305E8DE3CF9A524444085E7E532E8A3888012640B9E7A03A81028A68
+988A6FE2F1E5A1862612EE1C7B085179F5EDA5B45ED5EC05010AEBB93D34EE0427BBD7B217D92C
+7B788C59C4472183C54439D44A7C2B989E0DFF841E84140B48927FA2923BA180036179585E0A2C
+4D1229628822BD521DA27CE4927AE3A6B4B8A4802EE506E96549EB7508090814A05944386A0313
+2709E2DF860781EFDCE242E94B7A5EED3408A703CB4289E7A302EB52F520A39D28A7FA39A21D68
+7788272049E3E2F49B46761B6375588D5007404AF7924A503A7A382F01E15D7A0850492B457A2D
+8E28078E8A7AAEA1E95745792E88294E9E071289E785B89888EA288094A3FB7D09C85D94EC3A71
+3C8A634D0E0940ACD524F5E543B4991E0239DD00094287A17302D887B120F4874CD7C5E8E57A22
+7EB810296D53D4B8A76349F512BA2D52B279660B4E98888165605F5D08207B131D1EF22BDED172
+2584CA0DC492CB0801420803408A2ACA8D96612600C1050D23C48BA18122215E794FBA79FF08E9
+2248888F89E38A89C2A16C1DE509D612551AE2942C7937B6828AA96AF4EF12EE07790A1EBD4E81
+FBB94F17037941F82040DD2427967B529250A3740F5EED577B78ADCA21561E88535ED5E7EDDDD4
+82755B597978A98A57D2EDE1626253A5E928589D84A474410989D9749DD940749BDE2D220EB624
+A59888021A008D3419A278E0A794305681E4A84DF9C9B4448B9FFA2AD37AAFB03A8048E8F5A3F7
+A1DE00753B65153B45A2483D238CF48E8AE88F949103447A0ED204E7C75124D00A28DC39755CA0
+9148803753CBA56B7A5E8255AFFA27767859420127A289E38E8AA85EFA2B757A188549137A28C7
+529794952A98A909D7A172132A8C2A178013EE542801FE022008EBEE03D0808808D48020020826
+02022820A6A87ED4050200E0A1A948A8AA1215082B42B400A200688080201E4828BF81DB908D23
+0FD60DE49F484F80234074EBA17039E001E0807E0014080080B80B020A01AA12282EB478820822
+8250A0820A20A2EDEB8E3A38A3AA28238E38C1EE794D03B7805C4AA28AE07AB92EE167B8A2EB14
+5E7BBBAB7A91218AE1628608B183BF42EC204B84BAFE1F3B53D75DC52EE8A8BAD04970A8893A24
+74D4E1E50F68AABAF68124EB8A88B345349134DAABA6947662122BDDD588213E2B6B5DB80012B2
+EFD6748F4B454F08F4A2F79D120377E62C902E7A2AE5BBD0B4B878805229A22F7B8CD628228A28
+9FFA084BBE284BBDF4A0BA12D742288E1CE5E28075120CD0AB8095858F5B4FBA484CFA1A8E3866
+FC87658C1EF003DAD1A088102210C4A0B2014E8101A58E0D38'H
+            }
+          },
+          seq {
+            id {
+              local str "Query_7"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">KF823110.1 Crassostrea gigas Jumonji-C
+ domain-containing protein Jumonji6 mRNA, complete cds"
+                  }
+                }
+              },
+              title "KF823110.1 Crassostrea gigas Jumonji-C domain-containing
+ protein Jumonji6 mRNA, complete cds"
+            },
+            inst {
+              repr raw,
+              mol na,
+              length 1254,
+              seq-data ncbi2na '3A104818800835886503702521689F8033450E8EA04BF6
+F191013F87E251DF4B938C3BE020C8E52BD3350228BF3E20B3899771094BAE3070E448C8BAA27B
+4003A2E228A725082C5B0526BF0BBAA28E38AAC76B42782382C7FBA2C4E2E10428E125577337F8
+CB2F3AA24D101808271E8A1C67B97871F478E37FD4BF9EA88821B5D4C59EBFB8EA1791BDEA1E93
+113615DCA052E7E8395FBF4A11088EB9F1E5040C554081EB8055A5EA8A8A824888E29EED7AF42C
+EEC5462D0A3535E940A2CE553E88F7D2A14A221EEFEE56AA3AE93BAF783FA12C4327B45481FFB2
+EFB83FD43EFE91004B88A085C27B5002EB10AF7420A26F78EE9253268C0B23781016169F41D212
+F42F7AB4DC9D8BD4B8B9245EE22748748A18F7402D402C020A005242488D8E1D50EBA9B65B6D3D
+B7DF5D8B8600112D16493F52C750207B2380'H
+            }
+          },
+          seq {
+            id {
+              local str "Query_8"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">KF823109.1 Crassostrea gigas Jumonji-C
+ domain-containing protein Jumonji5 mRNA, complete cds"
+                  }
+                }
+              },
+              title "KF823109.1 Crassostrea gigas Jumonji-C domain-containing
+ protein Jumonji5 mRNA, complete cds"
+            },
+            inst {
+              repr raw,
+              mol na,
+              length 744,
+              seq-data ncbi2na '3BC21F1CDEEF325FAD2504ECBA1DA3851540AD17125DFA
+9A458515BAA2CD8A06A527F5C451C80EFE2031B0AA49095B8CFD9A4DFA20A939E567C42FBA1A1D
+73788881CEBD60C6ED6E882A8002004A0BA8CE7013C43B58BD7A10314828A13733AE061974B893
+A48A13C1396D4E7BCE6BAFD488BAD481BCD3BAF492EAA850B7B5C44186B72306D07B78D869880C
+5EB4E3E1080740923B20884A3A3DC0E84B3250BA1BA002C8CEC42F5703D683F16EB38AF00E482A
+E3E4FFCC5FD0B0'H
+            }
+          },
+          seq {
+            id {
+              local str "Query_9"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">KF823108.1 Crassostrea gigas Jumonji-C
+ domain-containing protein Jumonji4 mRNA, complete cds"
+                  }
+                }
+              },
+              title "KF823108.1 Crassostrea gigas Jumonji-C domain-containing
+ protein Jumonji4 mRNA, complete cds"
+            },
+            inst {
+              repr raw,
+              mol na,
+              length 1002,
+              seq-data ncbi2na '3A30DFC7C023E91F476A3F54871127CE21D7E69FF6D21E
+BE0E2F7A8440238E387123FBB33A9500A34E8453D4E78ECF4AD3F2FAD2504FEEB6820BA33DCD75
+2A820803F39042CEB4FEBB38EC8F79E0F1D8E007ECD5071080B4ADCA322B8F4A092A88C3F3B572
+E8E91450B7D0DF82310FDCC05307A383A7B0EF84DE7A4B3B40841F894AF49088F823EC0A0E8E9E
+A1412ED2F0D78294BEE8363CEB83F7D2FCE82D3E51C128D61F7108D3F2E042D180FC5C4812292D
+E8DE38855B7BE104C0B97248E0010923BF4AE7EE1DC31F4B9E0E023ECF750E122A923034FBBBF8
+5EC4BB420ECF3B8CE3521D483F1F7F038FB8810250E07C4B0032000C30324F3700'H
+            }
+          },
+          seq {
+            id {
+              local str "Query_10"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">KF823106.1 Crassostrea gigas Jumonji-C
+ domain-containing protein Jumonji2c mRNA, complete cds"
+                  }
+                }
+              },
+              title "KF823106.1 Crassostrea gigas Jumonji-C domain-containing
+ protein Jumonji2c mRNA, complete cds"
+            },
+            inst {
+              repr raw,
+              mol na,
+              length 1257,
+              seq-data ncbi2na '38C883E763A1C4CB3E0E1EBF058203694586480003B07E
+958E8440F8FF1E8404E084B5C6613000A020B419488211E58E3548AEE7F97B2E08C154152521F4
+A54DD8E28E874B4DCFAEEE28FB02FEEC4642F9CEBBBC80C5D0042084E88E472BBB5B4123249E2E
+7BFB9ECE2A8AA57C05452C3A42EA44EFBBB9DD14F162B40FE004C7402A250F04F86030F24122E0
+3C039C71EC155F4412E108412AB8BB9FEF7BAA0B9175DFD4EE17B9739E7AAE7FF8852E3E95F54B
+73105E43013AA544A8029FF94281B80ED83780BEA8C0BB3940440044233C40947BEE00D80840FF
+7B7BE8FD8E3A77F498611FF5E28CFBA8C77D3515F53CBAA954BA0B40E878E88BEC68940F40A840
+4FBAD393FED4BF823A2E80887F0884E033A1FC86289C5004ED23421EDEE9C68880B12DF7738E28
+8C02782CA6345110A042540B75C7501F0E9E00'H
+            }
+          },
+          seq {
+            id {
+              local str "Query_11"
+            },
+            descr {
+              user {
+                type str "CFastaReader",
+                data {
+                  {
+                    label str "DefLine",
+                    data str ">KF823107.1 Crassostrea gigas Jumonji-C
+ domain-containing protein Jumonji1b mRNA, complete cds"
+                  }
+                }
+              },
+              title "KF823107.1 Crassostrea gigas Jumonji-C domain-containing
+ protein Jumonji1b mRNA, complete cds"
+            },
+            inst {
+              repr raw,
+              mol na,
+              length 4887,
+              seq-data ncbi2na '38E00A49280DCD488E882F710921B38114809318127520
+B688E08E88275408B8A4CC29EB555049D6E5B5A74B804A209507F05EC6BC525BD21E9713755614
+9D4DD46A7A10828A001F04C877D0040B7254649013A72D23B6DE755455D34284B4CBD2E36D0D16
+C1021B771CB59852447745125344EDF74B751A4150969511152DB451A4B5534A14B5361734D75D
+75D75D75DAA792B769BCD24FC8D468340133E84481D225675BBA52D64D2F811A6B8E4D052C0734
+C0AE22C25D9D49553DC2D55BB4DA4A4B06F5313B792536741756ED7C554A36BE3C49EC974C410A
+DDB15055371DD204BB415249204D14E904B46B7BE1451D224E9D7176D510454B7344A904A8B406
+42569020249059099480AA39AAA4B0F72EEAABAEE5ED1C555230E1015755F11451012D0137B45D
+34974DE4B7539E774DE5D85D4F545DE9176A3F3A12FF0B5F6C8839EE48393FCD086787C1A34400
+877E7554515012482D01545D52507AE28B50CB7CE2B50490F70DF3E110F15BBA60EB48C0E11A12
+E315D2E7549554553B774554774290249C345401D0809BA7506D3DE18A10348AE0AD894AB65B51
+E29217B554296284274007BC6D05E1413745420A25AA142DD6B4B9B109D5C1A43749A828428618
+B6145DA5D62162D124AE2E3D37482280BD21C20A74952C1080D409E12E38412D55155015D50020
+17BC00828AA9C08A91022ED0A90200648A088052D080883103184D2A0028005C082758294A5A42
+D78153A2BA10D48AE0808801200B79E02CE97490210200E0805428A45550958B7D44D56AB55D49
+05545544B1414744441692A275D71042515BB479E0821A98B6F5D4A18F6E498AD15501E382EDA8
+BB08E1D41D264908275504DF7B63DC65F482BE6712D26ABF5E38F868F7589EDA194D0E184F855E
+9C541354B4E89408C84C8479C2C4FBA522EAE303DEE07AF4128888B50897A5AA182500F9BA0989
+2E16AB9988EEE1B7B8C619EF41391EAEED10BBA7FBAEEDE87BC42B5975995D48184926B8AA8AA8
+A206157106AB124228122A1E9E17B26705849246256101E39E15234D5E98657BA82EA4278D4613
+82282E81355E42EF4EE54B507509CB92083A9D0D2433B124A634147ED4104024001E383A4D9E28
+D108EF42A420A1D8D06904D0B1055049DF559D05E7A486D9773A1DA214B6236498B65BDA4204F8
+42F690B7C4154D1E25AEDD5E6BAE82439AA8EA8C18820815E5279D4574A81EF8508696902D0B68
+01041082D40542D4924919E8E334D4B5BAE8804BC5CA86204949535A78E4F13D76CEAD12493BE1
+9984758F7AF44378688526E3B35E1BD5475E9EEE1A5B79D21D463540440A81FCA37D4A24BA088A
+D256D3EED6ABA101D7816437BA455176FEB084FE90A20818EEBC314EDE8BAE34DAD154ED6EF7A8
+AAF6265C2A129F7238E3A2350E7DE01F0A1E9552A861F4B8DD395051FE18DD39299F51C5E2C474
+D94E901D05E97663C521F7CB8A5637AB5023B10E4CEADE50B154B8A810505F47E86DD219ED0FB3
+AEC6EA8F57586A56AA004AC44D04E94D0A4361865E7984538508066E6A21418AF56A99EE913718
+643A19E100D623F5D042BA90A262A8A23225514E158F461489EB17A1BA27520DB7B30A2C6AB9EA
+7114DB12ECEAA196CF4D566AA655142D08175127B342B658A1FEED56811781479F4B7454A2F4A7
+9EDE1151103462840712B020CD3B14E7B028E4FA7B9D0C1960522821C8'H
+            }
+          }
+        }
+      },
+      subject database "Documents/Bioinformatics/genomes/Pgenerosa_genes_datab
+ase/Pgenerosa.GENES",
+      algorithm-options {
+        {
+          name "EvalueThreshold",
+          value cutoff e-value { 1, 10, -1 }
+        },
+        {
+          name "MaskAtHash",
+          value boolean TRUE
+        },
+        {
+          name "DustFilteringLevel",
+          value integer 20
+        },
+        {
+          name "DustFilteringWindow",
+          value integer 64
+        },
+        {
+          name "DustFilteringLinker",
+          value integer 1
+        },
+        {
+          name "UngappedMode",
+          value boolean FALSE
+        },
+        {
+          name "HitlistSize",
+          value integer 500
+        },
+        {
+          name "EffectiveSearchSpace",
+          value big-integer 2711578899702
+        }
+      },
+      program-options {
+        {
+          name "LCaseMask",
+          value query-mask {
+            locations {
+              packed-int {
+                {
+                  from 1147,
+                  to 1210,
+                  id local str "Query_4"
+                },
+                {
+                  from 1147,
+                  to 1210,
+                  id local str "Query_4"
+                },
+                {
+                  from 1706,
+                  to 1738,
+                  id local str "Query_4"
+                },
+                {
+                  from 1706,
+                  to 1738,
+                  id local str "Query_4"
+                },
+                {
+                  from 4318,
+                  to 4336,
+                  id local str "Query_4"
+                },
+                {
+                  from 4318,
+                  to 4336,
+                  id local str "Query_4"
+                }
+              }
+            },
+            frame plus1
+          }
+        },
+        {
+          name "LCaseMask",
+          value query-mask {
+            locations {
+              packed-int {
+                {
+                  from 1353,
+                  to 1363,
+                  id local str "Query_5"
+                },
+                {
+                  from 1353,
+                  to 1363,
+                  id local str "Query_5"
+                },
+                {
+                  from 1476,
+                  to 1482,
+                  id local str "Query_5"
+                },
+                {
+                  from 1476,
+                  to 1482,
+                  id local str "Query_5"
+                }
+              }
+            },
+            frame plus1
+          }
+        },
+        {
+          name "LCaseMask",
+          value query-mask {
+            locations {
+              packed-int {
+                {
+                  from 4386,
+                  to 4508,
+                  id local str "Query_6"
+                },
+                {
+                  from 4386,
+                  to 4508,
+                  id local str "Query_6"
+                },
+                {
+                  from 4676,
+                  to 4798,
+                  id local str "Query_6"
+                },
+                {
+                  from 4676,
+                  to 4798,
+                  id local str "Query_6"
+                },
+                {
+                  from 4807,
+                  to 4844,
+                  id local str "Query_6"
+                },
+                {
+                  from 4807,
+                  to 4844,
+                  id local str "Query_6"
+                }
+              }
+            },
+            frame plus1
+          }
+        },
+        {
+          name "LCaseMask",
+          value query-mask {
+            locations {
+              packed-int {
+                {
+                  from 968,
+                  to 990,
+                  id local str "Query_9"
+                },
+                {
+                  from 968,
+                  to 990,
+                  id local str "Query_9"
+                }
+              }
+            },
+            frame plus1
+          }
+        },
+        {
+          name "LCaseMask",
+          value query-mask {
+            locations {
+              packed-int {
+                {
+                  from 75,
+                  to 82,
+                  id local str "Query_10"
+                },
+                {
+                  from 75,
+                  to 82,
+                  id local str "Query_10"
+                }
+              }
+            },
+            frame plus1
+          }
+        },
+        {
+          name "LCaseMask",
+          value query-mask {
+            locations {
+              packed-int {
+                {
+                  from 552,
+                  to 577,
+                  id local str "Query_11"
+                },
+                {
+                  from 552,
+                  to 577,
+                  id local str "Query_11"
+                },
+                {
+                  from 2230,
+                  to 2290,
+                  id local str "Query_11"
+                },
+                {
+                  from 2230,
+                  to 2290,
+                  id local str "Query_11"
+                }
+              }
+            },
+            frame plus1
+          }
+        }
+      }
+    }
+  },
+  results {
+    alignments {
+      {
+        type partial,
+        dim 2,
+        score {
+          {
+            id str "score",
+            value int 77
+          },
+          {
+            id str "blast_score",
+            value int 77
+          },
+          {
+            id str "e_value",
+            value real { 132169894046239, 10, -45 }
+          },
+          {
+            id str "bit_score",
+            value real { 143312317463734, 10, -12 }
+          },
+          {
+            id str "num_ident",
+            value int 111
+          },
+          {
+            id str "hsp_percent_coverage",
+            value real { 311919377941477, 10, -14 }
+          }
+        },
+        segs denseg {
+          dim 2,
+          numseg 1,
+          ids {
+            local str "Query_11",
+            local str "PGEN_.00g257110"
+          },
+          starts {
+            2720,
+            57322
+          },
+          lens {
+            128
+          },
+          strands {
+            plus,
+            plus
+          }
+        }
+      }
+    },
+    masks {
+      {
+        locations {
+          packed-int {
+            {
+              from 1147,
+              to 1210,
+              id local str "Query_4"
+            },
+            {
+              from 1706,
+              to 1738,
+              id local str "Query_4"
+            },
+            {
+              from 4318,
+              to 4336,
+              id local str "Query_4"
+            }
+          }
+        },
+        frame plus1
+      },
+      {
+        locations {
+          packed-int {
+            {
+              from 1353,
+              to 1363,
+              id local str "Query_5"
+            },
+            {
+              from 1476,
+              to 1482,
+              id local str "Query_5"
+            }
+          }
+        },
+        frame plus1
+      },
+      {
+        locations {
+          packed-int {
+            {
+              from 4386,
+              to 4508,
+              id local str "Query_6"
+            },
+            {
+              from 4676,
+              to 4798,
+              id local str "Query_6"
+            },
+            {
+              from 4807,
+              to 4844,
+              id local str "Query_6"
+            }
+          }
+        },
+        frame plus1
+      },
+      {
+        locations {
+          packed-int {
+            {
+              from 968,
+              to 990,
+              id local str "Query_9"
+            }
+          }
+        },
+        frame plus1
+      },
+      {
+        locations {
+          packed-int {
+            {
+              from 75,
+              to 82,
+              id local str "Query_10"
+            }
+          }
+        },
+        frame plus1
+      },
+      {
+        locations {
+          packed-int {
+            {
+              from 552,
+              to 577,
+              id local str "Query_11"
+            },
+            {
+              from 2230,
+              to 2290,
+              id local str "Query_11"
+            }
+          }
+        },
+        frame plus1
+      }
+    },
+    ka-blocks {
+      {
+        lambda { 133270576282382, 10, -14 },
+        k { 620991117264206, 10, -15 },
+        h { 112409184650114, 10, -14 },
+        gapped FALSE
+      },
+      {
+        lambda { 128, 10, -2 },
+        k { 46, 10, -2 },
+        h { 85, 10, -2 },
+        gapped TRUE
+      }
+    },
+    search-stats {
+      "Effective search space: 2711578899702",
+      "Effective search space used: 2711578899702",
+      "Length adjustment: 30"
+    }
+  }
+}

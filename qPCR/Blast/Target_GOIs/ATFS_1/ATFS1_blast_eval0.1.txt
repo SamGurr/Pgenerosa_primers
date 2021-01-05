@@ -1,0 +1,143 @@
+BLASTN 2.9.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: Pgenerosa.GENES
+           34,947 sequences; 377,813,576 total letters
+
+
+
+Query= NM_074114.6 Caenorhabditis elegans Stress activated transcription
+factor atfs-1 (atfs-1), mRNA
+
+Length=1916
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 711021813231
+
+
+Query= NM_182360.8 Caenorhabditis elegans Stress activated transcription
+factor atfs-1 (atfs-1), mRNA
+
+Length=1865
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 691805007468
+
+
+Query= NM_182360.8 Caenorhabditis elegans Stress activated transcription
+factor atfs-1 (atfs-1), mRNA
+
+Length=1865
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 691805007468
+
+
+Query= NM_074114.6 Caenorhabditis elegans Stress activated transcription
+factor atfs-1 (atfs-1), mRNA
+
+Length=1916
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 711021813231
+
+
+Query= NM_001269642.3 Caenorhabditis elegans Stress activated transcription
+factor atfs-1 (atfs-1), partial mRNA
+
+Length=846
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 308251079080
+
+
+Query= NM_001029131.5 Caenorhabditis elegans Stress activated transcription
+factor atfs-1 (atfs-1), mRNA
+
+Length=1847
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 685022605434
+
+
+  Database: Pgenerosa.GENES
+    Posted date:  Feb 25, 2020  4:48 PM
+  Number of letters in database: 377,813,576
+  Number of sequences in database:  34,947
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
